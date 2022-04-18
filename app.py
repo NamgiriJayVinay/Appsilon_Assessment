@@ -6,9 +6,9 @@ import PIL.Image
 import pandas as pd
 import os
 from fastai.vision.all import Path,load_learner,Image
-import pathlib
-plt = platform.system()
-if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+# import pathlib
+# plt = platform.system()
+# if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 path = Path('export.pkl')
 
