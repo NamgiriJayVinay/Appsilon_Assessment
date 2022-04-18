@@ -5,7 +5,8 @@ import pandas as pd
 import os
 from fastai.vision.all import Path,load_learner,Image
 import pathlib
-
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
 
 path = Path('export.pkl')
 
